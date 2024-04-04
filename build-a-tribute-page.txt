@@ -1,0 +1,80 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Sherlock Holmes</h1> 
+<div id="img-div"><img src="https://rb.gy/prstbr" id="image" alt="Sherlock Holmes">
+<figcaption id="img-caption">Sherlock Holmes, known as the father of deductive reasoning.></figcaption>
+</div>
+<article id="tribute-info">
+            <p>The game is afoot! A mystery, wrapped in an enigma... but this time, it concerns the very sustenance of mankind. The human condition, Watson, is a curious puzzle indeed. Can one mind truly grasp the intricate web that keeps a world fed? The answer, as always, lies in the details.</p>
+        </article>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Sherlock_Holmes" target="_blank">Learn more about Sherlock Holmes</a>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f6f7;
+    color: #333;
+}
+
+#main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+#title {
+    text-align: center;
+}
+img{display:block}
+#img-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+ justify-content: center;}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+#tribute-info {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+#tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #1a0dab;
+}
+
+** end of undefined **
+
